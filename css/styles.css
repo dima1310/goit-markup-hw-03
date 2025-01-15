@@ -112,11 +112,10 @@ img {
 }
 .container-hero {
   margin: 0 auto;
-  padding-top: 188px;
-  padding-bottom: 188px;
-  /* max-width: 496px; */
 }
 .hero-title {
+  padding-top: 188px;
+  padding-bottom: 188px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -131,6 +130,9 @@ img {
 }
 
 .hero-btn {
+  border-radius: 4px;
+  border: none;
+  height: 56px;
   min-width: 169px;
   display: block;
   cursor: pointer;
