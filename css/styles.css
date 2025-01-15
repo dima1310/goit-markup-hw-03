@@ -49,17 +49,13 @@ img {
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
-  border-bottom: 1px solid #e7e9fc;
-  padding-top: 24px;
 }
 .header-container {
   display: flex;
   align-items: center;
-  width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 24px;
   border-bottom: 1px solid #e7e9fc;
+  margin-left: 156px;
+  margin-right: 156px;
 }
 .header-nav {
   display: flex;
@@ -67,11 +63,12 @@ img {
   align-items: center;
   padding-top: 24px;
   padding-bottom: 24px;
-  margin-right: 76px;
+  margin-right: 320px;
 }
 
-.logo {
-  display: flex;
+.logo,
+.head logo {
+  align-items: center;
   padding-top: 24px;
   padding-bottom: 24px;
   font-family: "Raleway", sans-serif;
@@ -89,7 +86,7 @@ img {
   display: flex;
   gap: 40px;
   align-items: center;
-  padding-left: 76px;
+  margin-left: 76px;
 }
 .nav-link {
   font-weight: 500;
@@ -225,11 +222,19 @@ img {
 }
 .footer {
   background-color: #2e2f42;
-}
-.footer-logo,
-.logo {
   padding-top: 100px;
+}
+.footer-logo {
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
   margin-left: 156px;
+  padding-bottom: 16px;
 }
 .footer-text,
 .footer-logo-part {
