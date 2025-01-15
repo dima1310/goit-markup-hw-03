@@ -49,11 +49,12 @@ img {
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
+  border-bottom: 1px solid #e7e9fc;
 }
 .header-container {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #e7e9fc;
+
   margin-left: 156px;
   margin-right: 156px;
 }
@@ -67,8 +68,6 @@ img {
 
 .logo,
 .head logo {
-  padding-top: 24px;
-  padding-bottom: 24px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -83,9 +82,9 @@ img {
 .nav-list {
   display: flex;
   gap: 40px;
-  align-items: center;
 }
 .nav-link {
+  align-items: center;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
