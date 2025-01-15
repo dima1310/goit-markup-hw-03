@@ -60,7 +60,6 @@ img {
 .header-nav {
   display: flex;
   gap: 40px;
-  align-items: center;
   padding-top: 24px;
   padding-bottom: 24px;
   margin-right: 320px;
@@ -68,7 +67,6 @@ img {
 
 .logo,
 .head logo {
-  align-items: center;
   padding-top: 24px;
   padding-bottom: 24px;
   font-family: "Raleway", sans-serif;
@@ -86,7 +84,6 @@ img {
   display: flex;
   gap: 40px;
   align-items: center;
-  margin-left: 76px;
 }
 .nav-link {
   font-weight: 500;
