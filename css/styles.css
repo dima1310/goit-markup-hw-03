@@ -172,12 +172,14 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
+  align-items: center;
 }
 .item-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  align-items: center;
 }
 .container-team {
   margin: 0 auto;
@@ -187,10 +189,16 @@ img {
 .team-list {
   display: flex;
   gap: 24px;
-  margin-left: 76px;
+  align-items: center;
+
+  width: calc((100% – 72px) / 4);
 }
-.portfolio-subtitle,
-.team-subtitle {
+.team-item-title,
+.team-item-text {
+  align-items: center;
+}
+.portfolio-title {
+  align-items: center;
   text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
@@ -211,9 +219,9 @@ img {
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
-  width: calc ((100% - 48px) / 3);
+  width: calc((100% – 144px) / 6);
   align-content: center;
-  margin-left: 76px;
+  /* margin-left: 76px; */
 }
 .team {
   background-color: #f4f4fd;
