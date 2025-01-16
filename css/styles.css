@@ -111,11 +111,11 @@ img {
   color: #404bbf;
 }
 .container-hero {
+  padding-top: 188px;
+  padding-bottom: 188px;
   margin: 0 auto;
 }
 .hero-title {
-  padding-top: 188px;
-  padding-bottom: 188px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -156,6 +156,7 @@ img {
   padding-bottom: 120px;
 }
 .features-list {
+  width: calc((100% – 72px) / 4);
   display: flex;
   gap: 24px;
   margin-left: 156px;
@@ -170,7 +171,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 .item-text {
   font-size: 16px;
