@@ -113,8 +113,6 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.contacts-item {
-}
 .nav-link:focus,
 .nav-link:hover,
 .contacts-link:focus,
@@ -159,9 +157,10 @@ img {
 .hero-btn:focus {
   background-color: #404bbf;
 }
-
-.container-features {
+.features {
   padding: 120px 0;
+}
+.container-features {
   margin: 0 auto;
 }
 .features-list {
