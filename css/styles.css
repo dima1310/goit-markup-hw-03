@@ -123,7 +123,6 @@ img {
 }
 .container-hero {
   margin: 0 auto;
-  padding: 188px 0;
 }
 .hero-title {
   font-weight: 700;
@@ -137,6 +136,7 @@ img {
 }
 .hero {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 
 .hero-btn {
@@ -273,7 +273,6 @@ img {
   padding: 100px 0;
 }
 .footer-logo {
-  align-items: center;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -281,7 +280,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
   margin-left: 156px;
 }
 .footer-text,
