@@ -207,7 +207,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .team-item-subtitle {
   font-weight: 500;
@@ -240,6 +240,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .container-portfolio {
@@ -250,7 +251,7 @@ img {
 }
 .portfolio-list {
   display: flex;
-  gap: 24px 48px;
+  gap: 48px 24px;
   flex-wrap: wrap;
   align-content: center;
 }
