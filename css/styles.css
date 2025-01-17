@@ -161,18 +161,18 @@ img {
 }
 
 .container-features {
+  padding: 120px 0;
   margin: 0 auto;
 }
 .features-list {
-  width: calc((100% – 72px) / 4);
   display: flex;
   gap: 24px;
 }
 .features-item {
+  width: calc((100% – 72px) / 4);
 }
 
 .features-item-subtitle {
-  padding-top: 120px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -186,7 +186,6 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
   align-items: center;
-  padding-bottom: 120px;
 }
 .container-team {
   margin: 0 auto;
