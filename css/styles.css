@@ -210,6 +210,7 @@ img {
   margin-bottom: 72px;
 }
 .container-card {
+  padding: 32px 0;
 }
 
 .card-item-subtitle {
@@ -219,7 +220,6 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  padding-top: 32px;
 }
 .card-item-text {
   font-weight: 400;
@@ -228,7 +228,6 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
-  padding-bottom: 32px;
 }
 .portfolio {
   padding: 120px 0;
