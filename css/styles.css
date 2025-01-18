@@ -193,11 +193,12 @@ img {
   margin: 0 auto;
 }
 .team-list {
-  /* display: flex;
-  gap: 24px; */
+  display: flex;
+  gap: 24px;
 }
 .team-item {
   border-radius: 0 0 4px 4px;
+  width: calc((100% – 72px) / 4);
 }
 .team-title {
   font-weight: 700;
@@ -209,10 +210,8 @@ img {
   margin-bottom: 72px;
 }
 .container-card {
-  display: flex;
-  gap: 24px;
-  width: calc((100% – 72px) / 4);
 }
+
 .card-item-subtitle {
   font-weight: 500;
   font-size: 20px;
