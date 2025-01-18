@@ -255,7 +255,6 @@ img {
   display: flex;
   gap: 48px 24px;
   flex-wrap: wrap;
-  align-content: center;
 }
 .portfolio-card-text {
   font-weight: 500;
