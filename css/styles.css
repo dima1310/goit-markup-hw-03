@@ -232,8 +232,6 @@ img {
 }
 .portfolio {
   padding: 120px 0;
-  border: 1px solid #e7e9fc;
-  padding: 32px 16px;
 }
 .portfolio-title {
   align-items: center;
@@ -249,6 +247,8 @@ img {
 
 .container-portfolio {
   margin: 0 auto;
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
 }
 .portfolio-item {
   width: calc((100% – 48px) / 3);
