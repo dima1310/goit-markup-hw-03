@@ -150,7 +150,7 @@ img {
   letter-spacing: 0.04em;
   color: #fff;
   text-align: center;
-  margin: 48px auto;
+  margin: 48px auto 0;
 }
 .hero-btn:hover,
 .hero-btn:focus {
